@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import itertools
 from ypy import memo, fs
-
+from functools import reduce
 
 # complementary bases (code borrowed liberally from ldsc repo)
 COMPLEMENT = {'A': 'T', 'T': 'A', 'C': 'G', 'G': 'C'}
